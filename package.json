@@ -1,0 +1,54 @@
+{
+  "name": "zenith-utility-bot",
+  "version": "1.2.0",
+  "description": "Zenith - A global multiple guild utility and management bot with Components V2",
+  "license": "ISC",
+  "keywords": [
+    "discord.js",
+    "v14",
+    "zenith",
+    "v2",
+    "components",
+    "utility",
+    "management",
+    "discord-hybrid-sharding",
+    "discord-bot"
+  ],
+  "main": "src/zenith.js",
+  "scripts": {
+    "start": "node src/zenith.js",
+    "dev": "concurrently \"node src/zenith.js\" \"cd dashboard && npm run dev\"",
+    "build": "cd dashboard && npm run build",
+    "bot": "node src/zenith.js"
+  },
+  "type": "commonjs",
+  "author": "devrock",
+  "homepage": "",
+  "dependencies": {
+    "@discordjs/builders": "^1.13.1",
+    "@discordjs/formatters": "^0.6.2",
+    "@discordjs/util": "^1.2.0",
+    "@napi-rs/canvas": "^0.1.97",
+    "axios": "^1.13.6",
+    "colors": "^1.4.0",
+    "cors": "^2.8.6",
+    "discord-hybrid-sharding": "^3.0.1",
+    "discord.js": "^14.25.1",
+    "dokdo": "^1.0.1",
+    "dompurify": "^3.3.3",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.1.1",
+    "helmet": "^8.1.0",
+    "ioredis": "^5.10.0",
+    "jsdom": "^29.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.0",
+    "morgan": "^1.10.1",
+    "node-cron": "^4.2.1",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
