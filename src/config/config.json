@@ -1,0 +1,28 @@
+{
+    "color": "#ff66b2",
+    "prefix": "z!",
+    "botName": "ModBotX",
+    "crossmark_emoji": "<:cross:1488844790186377327>",
+    "checkmark_emoji": "<:tick:1488844745324236890>",
+    "loading_emoji": "<:loading:1488157949959602196>",
+    "kick_emoji": "<:kick:1488844705675477133>",
+    "ban_emoji": "<:ban:1488844638289793125>",
+    "warn_emoji": "<:warn:1488844597202518026>",
+    "info_emoji": "<:info:1488844542840148090>",
+    "welcome_emoji": "<:welcome:1488844490155360537>",
+    "verify_emoji": "<:verify:1488844440406593586>",
+    "yt_emoji": "<:youtube:1488844401202430063>",
+    "category_emojis": {
+        "Info": "<:info:1488844542840148090>",
+        "Moderation": "<:mod:1488844345284104212>",
+        "Owner": "<:owner:1488844310542815283>",
+        "Utility": "<:utility:1488844280121397428>",
+        "Other": "<:folder:1488844226488696862>"
+    },
+    "ownerIDs": [
+        "1434858158618054756"
+    ],
+    "check_emoji": "<:tick:1488844745324236890>",
+    "nuke_emoji": "<:nuke:1488148371309858897>",
+    "mute_emoji": "<:mute:1488844122222628905>"
+}
